@@ -8,6 +8,12 @@
 import Foundation
 import UIKit
 
+// TODO:
+// 1. When a user taps on the specific camera, the app should
+//    display the first photo for the specific rover, the specific camera,
+//    on the specified Mars Sol date. This photo should be displayed in its own
+//    view controller.
+
 class RoverCamsViewController: UIViewController, UITableViewDataSource {
     
     // these three cams are the common ones among the three rovers
@@ -35,7 +41,10 @@ class RoverCamsViewController: UIViewController, UITableViewDataSource {
     }
     
     private func setContentAndStyle() {
+        
+        // TODO: Set the title to the name of the rover
         self.title = "ROVER_NAME Cameras"
+        
         self.marsSolLabel.text = "Mars Sol:"
         self.solInputTextField.placeholder = "Mars Sol for desired photos"
     }

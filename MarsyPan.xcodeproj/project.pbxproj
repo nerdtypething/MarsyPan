@@ -19,6 +19,7 @@
 		392E5A6F277CE2C400CB9D83 /* RoverCam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E5A6E277CE2C400CB9D83 /* RoverCam.swift */; };
 		392E5A72277CEBA100CB9D83 /* RoverCamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E5A70277CEBA100CB9D83 /* RoverCamTableViewCell.swift */; };
 		392E5A73277CEBA100CB9D83 /* RoverCamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392E5A71277CEBA100CB9D83 /* RoverCamTableViewCell.xib */; };
+		392E5A76277CEDD200CB9D83 /* NasaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E5A75277CEDD200CB9D83 /* NasaAPI.swift */; };
 		39B0ACB1277CC4950014B6C4 /* MarsyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0ACB0277CC4950014B6C4 /* MarsyNavigationController.swift */; };
 		39B0ACB3277CD0330014B6C4 /* RoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B0ACB2277CD0330014B6C4 /* RoverTableViewCell.xib */; };
 		39B0ACB5277CD10E0014B6C4 /* RoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0ACB4277CD10E0014B6C4 /* RoverTableViewCell.swift */; };
@@ -62,6 +63,7 @@
 		392E5A6E277CE2C400CB9D83 /* RoverCam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCam.swift; sourceTree = "<group>"; };
 		392E5A70277CEBA100CB9D83 /* RoverCamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoverCamTableViewCell.swift; sourceTree = "<group>"; };
 		392E5A71277CEBA100CB9D83 /* RoverCamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoverCamTableViewCell.xib; sourceTree = "<group>"; };
+		392E5A75277CEDD200CB9D83 /* NasaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPI.swift; sourceTree = "<group>"; };
 		39B0ACB0277CC4950014B6C4 /* MarsyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyNavigationController.swift; sourceTree = "<group>"; };
 		39B0ACB2277CD0330014B6C4 /* RoverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoverTableViewCell.xib; sourceTree = "<group>"; };
 		39B0ACB4277CD10E0014B6C4 /* RoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverTableViewCell.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		390B2469277CC1C000DE7D9B /* MarsyPan */ = {
 			isa = PBXGroup;
 			children = (
+				392E5A74277CEDC500CB9D83 /* API */,
 				39B0ACB6277CD1440014B6C4 /* Models */,
 				39B0ACAF277CC4160014B6C4 /* UI */,
 				390B246A277CC1C000DE7D9B /* AppDelegate.swift */,
@@ -146,6 +149,14 @@
 				390B248D277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift */,
 			);
 			path = MarsyPanUITests;
+			sourceTree = "<group>";
+		};
+		392E5A74277CEDC500CB9D83 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				392E5A75277CEDD200CB9D83 /* NasaAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		39B0ACAF277CC4160014B6C4 /* UI */ = {
@@ -310,6 +321,7 @@
 				392E5A6F277CE2C400CB9D83 /* RoverCam.swift in Sources */,
 				39B99795277CDD38001CFE39 /* UIView+Extensions.swift in Sources */,
 				39B99799277CDFCE001CFE39 /* RoverCamsViewController.swift in Sources */,
+				392E5A76277CEDD200CB9D83 /* NasaAPI.swift in Sources */,
 				39B0ACB5277CD10E0014B6C4 /* RoverTableViewCell.swift in Sources */,
 				390B246F277CC1C000DE7D9B /* MarsyRootViewController.swift in Sources */,
 				39B0ACB8277CD14B0014B6C4 /* Rover.swift in Sources */,
