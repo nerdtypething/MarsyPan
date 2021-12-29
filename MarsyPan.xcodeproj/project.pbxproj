@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390B246B277CC1C000DE7D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B246A277CC1C000DE7D9B /* AppDelegate.swift */; };
+		390B246D277CC1C000DE7D9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B246C277CC1C000DE7D9B /* SceneDelegate.swift */; };
+		390B246F277CC1C000DE7D9B /* MarsyRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B246E277CC1C000DE7D9B /* MarsyRootViewController.swift */; };
+		390B2472277CC1C000DE7D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B2470277CC1C000DE7D9B /* Main.storyboard */; };
+		390B2474277CC1C200DE7D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390B2473277CC1C200DE7D9B /* Assets.xcassets */; };
+		390B2477277CC1C200DE7D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B2475277CC1C200DE7D9B /* LaunchScreen.storyboard */; };
+		390B2482277CC1C200DE7D9B /* MarsyPanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B2481277CC1C200DE7D9B /* MarsyPanTests.swift */; };
+		390B248C277CC1C200DE7D9B /* MarsyPanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B248B277CC1C200DE7D9B /* MarsyPanUITests.swift */; };
+		390B248E277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B248D277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift */; };
+		392E5A6F277CE2C400CB9D83 /* RoverCam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E5A6E277CE2C400CB9D83 /* RoverCam.swift */; };
+		39B0ACB1277CC4950014B6C4 /* MarsyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0ACB0277CC4950014B6C4 /* MarsyNavigationController.swift */; };
+		39B0ACB3277CD0330014B6C4 /* RoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B0ACB2277CD0330014B6C4 /* RoverTableViewCell.xib */; };
+		39B0ACB5277CD10E0014B6C4 /* RoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0ACB4277CD10E0014B6C4 /* RoverTableViewCell.swift */; };
+		39B0ACB8277CD14B0014B6C4 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0ACB7277CD14B0014B6C4 /* Rover.swift */; };
+		39B99795277CDD38001CFE39 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B99794277CDD38001CFE39 /* UIView+Extensions.swift */; };
+		39B99797277CDE86001CFE39 /* RoverCamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B99796277CDE86001CFE39 /* RoverCamsViewController.xib */; };
+		39B99799277CDFCE001CFE39 /* RoverCamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B99798277CDFCE001CFE39 /* RoverCamsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390B247E277CC1C200DE7D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390B245F277CC1C000DE7D9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390B2466277CC1C000DE7D9B;
+			remoteInfo = MarsyPan;
+		};
+		390B2488277CC1C200DE7D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390B245F277CC1C000DE7D9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390B2466277CC1C000DE7D9B;
+			remoteInfo = MarsyPan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390B2467277CC1C000DE7D9B /* MarsyPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsyPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B246A277CC1C000DE7D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		390B246C277CC1C000DE7D9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		390B246E277CC1C000DE7D9B /* MarsyRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyRootViewController.swift; sourceTree = "<group>"; };
+		390B2471277CC1C000DE7D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		390B2473277CC1C200DE7D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390B2476277CC1C200DE7D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390B2478277CC1C200DE7D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390B247D277CC1C200DE7D9B /* MarsyPanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsyPanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B2481277CC1C200DE7D9B /* MarsyPanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyPanTests.swift; sourceTree = "<group>"; };
+		390B2487277CC1C200DE7D9B /* MarsyPanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsyPanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B248B277CC1C200DE7D9B /* MarsyPanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyPanUITests.swift; sourceTree = "<group>"; };
+		390B248D277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyPanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		392E5A6E277CE2C400CB9D83 /* RoverCam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCam.swift; sourceTree = "<group>"; };
+		39B0ACB0277CC4950014B6C4 /* MarsyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsyNavigationController.swift; sourceTree = "<group>"; };
+		39B0ACB2277CD0330014B6C4 /* RoverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoverTableViewCell.xib; sourceTree = "<group>"; };
+		39B0ACB4277CD10E0014B6C4 /* RoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverTableViewCell.swift; sourceTree = "<group>"; };
+		39B0ACB7277CD14B0014B6C4 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		39B99794277CDD38001CFE39 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		39B99796277CDE86001CFE39 /* RoverCamsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoverCamsViewController.xib; sourceTree = "<group>"; };
+		39B99798277CDFCE001CFE39 /* RoverCamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCamsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390B2464277CC1C000DE7D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B247A277CC1C200DE7D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B2484277CC1C200DE7D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390B245E277CC1C000DE7D9B = {
+			isa = PBXGroup;
+			children = (
+				390B2469277CC1C000DE7D9B /* MarsyPan */,
+				390B2480277CC1C200DE7D9B /* MarsyPanTests */,
+				390B248A277CC1C200DE7D9B /* MarsyPanUITests */,
+				390B2468277CC1C000DE7D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390B2468277CC1C000DE7D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390B2467277CC1C000DE7D9B /* MarsyPan.app */,
+				390B247D277CC1C200DE7D9B /* MarsyPanTests.xctest */,
+				390B2487277CC1C200DE7D9B /* MarsyPanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390B2469277CC1C000DE7D9B /* MarsyPan */ = {
+			isa = PBXGroup;
+			children = (
+				39B0ACB6277CD1440014B6C4 /* Models */,
+				39B0ACAF277CC4160014B6C4 /* UI */,
+				390B246A277CC1C000DE7D9B /* AppDelegate.swift */,
+				390B246C277CC1C000DE7D9B /* SceneDelegate.swift */,
+				390B2470277CC1C000DE7D9B /* Main.storyboard */,
+				390B2473277CC1C200DE7D9B /* Assets.xcassets */,
+				390B2475277CC1C200DE7D9B /* LaunchScreen.storyboard */,
+				390B2478277CC1C200DE7D9B /* Info.plist */,
+			);
+			path = MarsyPan;
+			sourceTree = "<group>";
+		};
+		390B2480277CC1C200DE7D9B /* MarsyPanTests */ = {
+			isa = PBXGroup;
+			children = (
+				390B2481277CC1C200DE7D9B /* MarsyPanTests.swift */,
+			);
+			path = MarsyPanTests;
+			sourceTree = "<group>";
+		};
+		390B248A277CC1C200DE7D9B /* MarsyPanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				390B248B277CC1C200DE7D9B /* MarsyPanUITests.swift */,
+				390B248D277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift */,
+			);
+			path = MarsyPanUITests;
+			sourceTree = "<group>";
+		};
+		39B0ACAF277CC4160014B6C4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39B0ACB0277CC4950014B6C4 /* MarsyNavigationController.swift */,
+				390B246E277CC1C000DE7D9B /* MarsyRootViewController.swift */,
+				39B0ACB2277CD0330014B6C4 /* RoverTableViewCell.xib */,
+				39B0ACB4277CD10E0014B6C4 /* RoverTableViewCell.swift */,
+				39B99796277CDE86001CFE39 /* RoverCamsViewController.xib */,
+				39B99798277CDFCE001CFE39 /* RoverCamsViewController.swift */,
+				39B99794277CDD38001CFE39 /* UIView+Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		39B0ACB6277CD1440014B6C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39B0ACB7277CD14B0014B6C4 /* Rover.swift */,
+				392E5A6E277CE2C400CB9D83 /* RoverCam.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390B2466277CC1C000DE7D9B /* MarsyPan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B2491277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPan" */;
+			buildPhases = (
+				390B2463277CC1C000DE7D9B /* Sources */,
+				390B2464277CC1C000DE7D9B /* Frameworks */,
+				390B2465277CC1C000DE7D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsyPan;
+			productName = MarsyPan;
+			productReference = 390B2467277CC1C000DE7D9B /* MarsyPan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		390B247C277CC1C200DE7D9B /* MarsyPanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B2494277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPanTests" */;
+			buildPhases = (
+				390B2479277CC1C200DE7D9B /* Sources */,
+				390B247A277CC1C200DE7D9B /* Frameworks */,
+				390B247B277CC1C200DE7D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390B247F277CC1C200DE7D9B /* PBXTargetDependency */,
+			);
+			name = MarsyPanTests;
+			productName = MarsyPanTests;
+			productReference = 390B247D277CC1C200DE7D9B /* MarsyPanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390B2486277CC1C200DE7D9B /* MarsyPanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B2497277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPanUITests" */;
+			buildPhases = (
+				390B2483277CC1C200DE7D9B /* Sources */,
+				390B2484277CC1C200DE7D9B /* Frameworks */,
+				390B2485277CC1C200DE7D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390B2489277CC1C200DE7D9B /* PBXTargetDependency */,
+			);
+			name = MarsyPanUITests;
+			productName = MarsyPanUITests;
+			productReference = 390B2487277CC1C200DE7D9B /* MarsyPanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390B245F277CC1C000DE7D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					390B2466277CC1C000DE7D9B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					390B247C277CC1C200DE7D9B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 390B2466277CC1C000DE7D9B;
+					};
+					390B2486277CC1C200DE7D9B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 390B2466277CC1C000DE7D9B;
+					};
+				};
+			};
+			buildConfigurationList = 390B2462277CC1C000DE7D9B /* Build configuration list for PBXProject "MarsyPan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390B245E277CC1C000DE7D9B;
+			productRefGroup = 390B2468277CC1C000DE7D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390B2466277CC1C000DE7D9B /* MarsyPan */,
+				390B247C277CC1C200DE7D9B /* MarsyPanTests */,
+				390B2486277CC1C200DE7D9B /* MarsyPanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390B2465277CC1C000DE7D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B0ACB3277CD0330014B6C4 /* RoverTableViewCell.xib in Resources */,
+				390B2477277CC1C200DE7D9B /* LaunchScreen.storyboard in Resources */,
+				39B99797277CDE86001CFE39 /* RoverCamsViewController.xib in Resources */,
+				390B2474277CC1C200DE7D9B /* Assets.xcassets in Resources */,
+				390B2472277CC1C000DE7D9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B247B277CC1C200DE7D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B2485277CC1C200DE7D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390B2463277CC1C000DE7D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392E5A6F277CE2C400CB9D83 /* RoverCam.swift in Sources */,
+				39B99795277CDD38001CFE39 /* UIView+Extensions.swift in Sources */,
+				39B99799277CDFCE001CFE39 /* RoverCamsViewController.swift in Sources */,
+				39B0ACB5277CD10E0014B6C4 /* RoverTableViewCell.swift in Sources */,
+				390B246F277CC1C000DE7D9B /* MarsyRootViewController.swift in Sources */,
+				39B0ACB8277CD14B0014B6C4 /* Rover.swift in Sources */,
+				390B246B277CC1C000DE7D9B /* AppDelegate.swift in Sources */,
+				39B0ACB1277CC4950014B6C4 /* MarsyNavigationController.swift in Sources */,
+				390B246D277CC1C000DE7D9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B2479277CC1C200DE7D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B2482277CC1C200DE7D9B /* MarsyPanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B2483277CC1C200DE7D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B248E277CC1C200DE7D9B /* MarsyPanUITestsLaunchTests.swift in Sources */,
+				390B248C277CC1C200DE7D9B /* MarsyPanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		390B247F277CC1C200DE7D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390B2466277CC1C000DE7D9B /* MarsyPan */;
+			targetProxy = 390B247E277CC1C200DE7D9B /* PBXContainerItemProxy */;
+		};
+		390B2489277CC1C200DE7D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390B2466277CC1C000DE7D9B /* MarsyPan */;
+			targetProxy = 390B2488277CC1C200DE7D9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		390B2470277CC1C000DE7D9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390B2471277CC1C000DE7D9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		390B2475277CC1C200DE7D9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390B2476277CC1C200DE7D9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390B248F277CC1C200DE7D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		390B2490277CC1C200DE7D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390B2492277CC1C200DE7D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsyPan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390B2493277CC1C200DE7D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsyPan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		390B2495277CC1C200DE7D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsyPan.app/MarsyPan";
+			};
+			name = Debug;
+		};
+		390B2496277CC1C200DE7D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsyPan.app/MarsyPan";
+			};
+			name = Release;
+		};
+		390B2498277CC1C200DE7D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsyPan;
+			};
+			name = Debug;
+		};
+		390B2499277CC1C200DE7D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.MarsyPanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsyPan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390B2462277CC1C000DE7D9B /* Build configuration list for PBXProject "MarsyPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B248F277CC1C200DE7D9B /* Debug */,
+				390B2490277CC1C200DE7D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390B2491277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B2492277CC1C200DE7D9B /* Debug */,
+				390B2493277CC1C200DE7D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390B2494277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B2495277CC1C200DE7D9B /* Debug */,
+				390B2496277CC1C200DE7D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390B2497277CC1C200DE7D9B /* Build configuration list for PBXNativeTarget "MarsyPanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B2498277CC1C200DE7D9B /* Debug */,
+				390B2499277CC1C200DE7D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 390B245F277CC1C000DE7D9B /* Project object */;
+}
