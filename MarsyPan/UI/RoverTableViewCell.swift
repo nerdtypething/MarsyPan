@@ -28,6 +28,12 @@ class RoverTableViewCell: UITableViewCell {
     }
     
     private func setContentAndStyle() {
+        self.profileImageView.layer.borderWidth = 1
+        self.profileImageView.layer.masksToBounds = false
+        self.profileImageView.layer.borderColor = UIColor.white.cgColor
+        self.profileImageView.layer.cornerRadius = 4.0
+        self.profileImageView.clipsToBounds = true
+        
         self.contentContainerView.layer.cornerRadius = 8.0
         self.contentContainerView.clipsToBounds = true
         self.contentContainerView.layer.masksToBounds = false

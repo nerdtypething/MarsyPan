@@ -25,6 +25,7 @@ class RoverCamsViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet var marsSolLabel: UILabel!
     @IBOutlet var solInputTextField: UITextField!
+    @IBOutlet var roverCamsLabel: UILabel!
     @IBOutlet var camsTableView: UITableView!
     
     static func make(_ rover: Rover) -> RoverCamsViewController {
@@ -43,10 +44,11 @@ class RoverCamsViewController: UIViewController, UITableViewDataSource {
     private func setContentAndStyle() {
         
         // TODO: Set the title to the name of the rover
-        self.title = "ROVER_NAME Cameras"
+        self.title = "ROVER_NAME"
         
         self.marsSolLabel.text = "Mars Sol:"
         self.solInputTextField.placeholder = "Mars Sol for desired photos"
+        self.roverCamsLabel.text = "Available Cameras:"
     }
 
     // MARK: UITableViewDataSource

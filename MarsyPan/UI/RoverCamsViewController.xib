@@ -39,8 +39,14 @@
                             <constraint firstItem="GhU-s9-vhh" firstAttribute="centerY" secondItem="DmF-7Z-qDM" secondAttribute="centerY" id="fMb-v8-6OZ"/>
                         </constraints>
                     </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ce5-i4-asq" userLabel="RoverCamsLabel">
+                        <rect key="frame" x="20" y="123" width="374" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hTK-rS-rYw" userLabel="CamsTableView">
-                        <rect key="frame" x="0.0" y="123" width="414" height="739"/>
+                        <rect key="frame" x="0.0" y="152" width="414" height="710"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tableView>
                 </subviews>
@@ -49,16 +55,20 @@
                 <constraints>
                     <constraint firstItem="mNE-J3-SRa" firstAttribute="leading" secondItem="Evf-br-rmG" secondAttribute="leading" constant="10" id="KFT-ae-QFJ"/>
                     <constraint firstItem="Evf-br-rmG" firstAttribute="trailing" secondItem="hTK-rS-rYw" secondAttribute="trailing" id="OyJ-nH-ksO"/>
+                    <constraint firstItem="Ce5-i4-asq" firstAttribute="top" secondItem="mNE-J3-SRa" secondAttribute="bottom" constant="8" symbolic="YES" id="TjC-Yj-vjN"/>
                     <constraint firstItem="Evf-br-rmG" firstAttribute="trailing" secondItem="mNE-J3-SRa" secondAttribute="trailing" constant="10" id="cFk-FR-3wV"/>
-                    <constraint firstItem="hTK-rS-rYw" firstAttribute="top" secondItem="mNE-J3-SRa" secondAttribute="bottom" constant="8" symbolic="YES" id="iD6-RH-7oG"/>
+                    <constraint firstItem="Ce5-i4-asq" firstAttribute="leading" secondItem="Evf-br-rmG" secondAttribute="leading" constant="20" id="h54-Sv-0X7"/>
+                    <constraint firstItem="Evf-br-rmG" firstAttribute="trailing" secondItem="Ce5-i4-asq" secondAttribute="trailing" constant="20" id="jvM-nI-hkS"/>
                     <constraint firstItem="mNE-J3-SRa" firstAttribute="top" secondItem="Evf-br-rmG" secondAttribute="top" constant="10" id="ksV-W8-b7Z"/>
                     <constraint firstItem="hTK-rS-rYw" firstAttribute="leading" secondItem="Evf-br-rmG" secondAttribute="leading" id="lUg-TN-KOC"/>
+                    <constraint firstItem="hTK-rS-rYw" firstAttribute="top" secondItem="Ce5-i4-asq" secondAttribute="bottom" constant="8" symbolic="YES" id="p0Y-u9-cT5"/>
                     <constraint firstItem="Evf-br-rmG" firstAttribute="bottom" secondItem="hTK-rS-rYw" secondAttribute="bottom" id="p9m-k6-JCH"/>
                 </constraints>
             </view>
             <connections>
                 <outlet property="camsTableView" destination="hTK-rS-rYw" id="Dal-01-p8Z"/>
                 <outlet property="marsSolLabel" destination="DmF-7Z-qDM" id="bHJ-Nh-wN9"/>
+                <outlet property="roverCamsLabel" destination="Ce5-i4-asq" id="vXi-zv-aIy"/>
                 <outlet property="solInputTextField" destination="GhU-s9-vhh" id="bUX-Nu-q7w"/>
             </connections>
             <point key="canvasLocation" x="184" y="125"/>

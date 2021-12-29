@@ -17,17 +17,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSU-R4-T9l" userLabel="ContentContainerView">
-                        <rect key="frame" x="10" y="10" width="468" height="80"/>
+                        <rect key="frame" x="10" y="10" width="468" height="60"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U0J-Y7-gXW" userLabel="ProfileImageView">
-                                <rect key="frame" x="20" y="10" width="60" height="60"/>
+                                <rect key="frame" x="10" y="5" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="BC3-21-8N1"/>
-                                    <constraint firstAttribute="height" constant="60" id="m9g-2I-5ya"/>
+                                    <constraint firstAttribute="width" constant="50" id="BC3-21-8N1"/>
+                                    <constraint firstAttribute="height" constant="50" id="m9g-2I-5ya"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5h-Ad-xTZ" userLabel="NameLabel">
-                                <rect key="frame" x="88" y="29.5" width="41.5" height="21"/>
+                                <rect key="frame" x="68" y="19.5" width="41.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,11 +35,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="U0J-Y7-gXW" secondAttribute="bottom" constant="10" id="DUX-OG-ISy"/>
+                            <constraint firstAttribute="bottom" secondItem="U0J-Y7-gXW" secondAttribute="bottom" constant="5" id="DUX-OG-ISy"/>
                             <constraint firstItem="G5h-Ad-xTZ" firstAttribute="centerY" secondItem="U0J-Y7-gXW" secondAttribute="centerY" id="LOX-Ld-SGV"/>
-                            <constraint firstItem="U0J-Y7-gXW" firstAttribute="top" secondItem="MSU-R4-T9l" secondAttribute="top" constant="10" id="MUy-1h-8qx"/>
+                            <constraint firstItem="U0J-Y7-gXW" firstAttribute="top" secondItem="MSU-R4-T9l" secondAttribute="top" constant="5" id="MUy-1h-8qx"/>
                             <constraint firstItem="G5h-Ad-xTZ" firstAttribute="leading" secondItem="U0J-Y7-gXW" secondAttribute="trailing" constant="8" symbolic="YES" id="SIB-EW-5df"/>
-                            <constraint firstItem="U0J-Y7-gXW" firstAttribute="leading" secondItem="MSU-R4-T9l" secondAttribute="leading" constant="20" symbolic="YES" id="gEQ-xL-ct4"/>
+                            <constraint firstItem="U0J-Y7-gXW" firstAttribute="leading" secondItem="MSU-R4-T9l" secondAttribute="leading" constant="10" id="gEQ-xL-ct4"/>
                             <constraint firstItem="U0J-Y7-gXW" firstAttribute="centerY" secondItem="MSU-R4-T9l" secondAttribute="centerY" id="qLP-Wj-anD"/>
                         </constraints>
                     </view>

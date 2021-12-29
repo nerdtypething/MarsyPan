@@ -20,7 +20,7 @@
                         <rect key="frame" x="10" y="10" width="468" height="102"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5h-Ad-xTZ" userLabel="NameLabel">
-                                <rect key="frame" x="20" y="20" width="428" height="62"/>
+                                <rect key="frame" x="20" y="10" width="428" height="82"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,8 +30,8 @@
                         <constraints>
                             <constraint firstItem="G5h-Ad-xTZ" firstAttribute="leading" secondItem="MSU-R4-T9l" secondAttribute="leading" constant="20" symbolic="YES" id="EIU-R8-HYy"/>
                             <constraint firstAttribute="trailing" secondItem="G5h-Ad-xTZ" secondAttribute="trailing" constant="20" symbolic="YES" id="Q4V-m4-9kR"/>
-                            <constraint firstAttribute="bottom" secondItem="G5h-Ad-xTZ" secondAttribute="bottom" constant="20" symbolic="YES" id="ohi-v8-SNW"/>
-                            <constraint firstItem="G5h-Ad-xTZ" firstAttribute="top" secondItem="MSU-R4-T9l" secondAttribute="top" constant="20" symbolic="YES" id="uYE-f4-Qh3"/>
+                            <constraint firstAttribute="bottom" secondItem="G5h-Ad-xTZ" secondAttribute="bottom" constant="10" id="ohi-v8-SNW"/>
+                            <constraint firstItem="G5h-Ad-xTZ" firstAttribute="top" secondItem="MSU-R4-T9l" secondAttribute="top" constant="10" id="uYE-f4-Qh3"/>
                             <constraint firstItem="G5h-Ad-xTZ" firstAttribute="centerY" secondItem="MSU-R4-T9l" secondAttribute="centerY" id="zYS-l2-Equ"/>
                         </constraints>
                     </view>
