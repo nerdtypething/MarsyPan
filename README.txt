@@ -6,7 +6,7 @@ This is a starter project that has some UI already built up.
 - Tapping into each rover's screen shows a new view that has an input text field and a list of available cameras.
   - The input text field is meant to take an input for the Sol for which we want to fetch photos.
 - The API key to use is found in the NasaAPI struct.
-- API documentation can be found here: https://api.nasa.gov/index.html
+- API documentation can be found here: https://api.nasa.gov/index.html (Mars Rover Photos).
 
 Assignment:
 
@@ -19,4 +19,4 @@ Constraints:
 2. The app should be usable in both landscape and portrait mode.
 
 Make it Interesting:
-1. The API key that we have is rate-limited, which means we can only call the API a certain number of times per hour. What can we do to reduce the chance of us hitting the rate limit?
+1. The API key that we have is rate-limited, which means we can only call the API a certain number of times per hour. What can we do to reduce the chance of hitting the rate limit?
