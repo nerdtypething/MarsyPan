@@ -22,7 +22,7 @@ class MarsyRootViewController: UIViewController, UITableViewDataSource, UITableV
         self.roversTableView.register(UINib(nibName: "RoverTableViewCell", bundle: nil), forCellReuseIdentifier: "RoverTableViewCell")
         self.roversTableView.dataSource = self
         self.roversTableView.delegate = self
-        self.title = "MarzyPan"
+        self.title = "MarsyPan"
     }
     
     // MARK: UITableViewDataSource
