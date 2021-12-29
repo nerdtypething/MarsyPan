@@ -28,6 +28,9 @@ class RoverCamsViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.camsTableView.register(UINib(nibName: "RoverCamTableViewCell", bundle: nil), forCellReuseIdentifier: "RoverCamTableViewCell")
+        self.camsTableView.dataSource = self
         self.setContentAndStyle()
     }
     
@@ -47,8 +50,8 @@ class RoverCamsViewController: UIViewController, UITableViewDataSource {
         var cell: UITableViewCell = UITableViewCell(style: .default, reuseIdentifier: nil)
         
         if (self._cams.count > indexPath.row) {
-            if let camCell = tableView.dequeueReusableCell(withIdentifier: "RoverTableViewCell") as? RoverTableViewCell {
-//                roverCell.bind(_rovers[indexPath.row])
+            if let camCell = tableView.dequeueReusableCell(withIdentifier: "RoverCamTableViewCell") as? RoverCamTableViewCell {
+                camCell.bind(_cams[indexPath.row])
                 cell = camCell
             }
         }

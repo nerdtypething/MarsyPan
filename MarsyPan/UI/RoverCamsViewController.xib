@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,34 +18,34 @@
                         <rect key="frame" x="10" y="54" width="394" height="61"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmF-7Z-qDM" userLabel="MarsSolLabel">
-                                <rect key="frame" x="20" y="20" width="42" height="21"/>
+                                <rect key="frame" x="10" y="20" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GhU-s9-vhh" userLabel="SolInputTextField">
-                                <rect key="frame" x="70" y="13.5" width="304" height="34"/>
+                                <rect key="frame" x="72" y="13.5" width="312" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="GhU-s9-vhh" firstAttribute="leading" secondItem="DmF-7Z-qDM" secondAttribute="trailing" constant="8" symbolic="YES" id="9gg-Z9-uwT"/>
+                            <constraint firstItem="GhU-s9-vhh" firstAttribute="leading" secondItem="DmF-7Z-qDM" secondAttribute="trailing" constant="20" id="9gg-Z9-uwT"/>
                             <constraint firstAttribute="bottom" secondItem="DmF-7Z-qDM" secondAttribute="bottom" constant="20" symbolic="YES" id="Bfb-TT-15p"/>
-                            <constraint firstItem="DmF-7Z-qDM" firstAttribute="leading" secondItem="mNE-J3-SRa" secondAttribute="leading" constant="20" symbolic="YES" id="Epe-aC-CnF"/>
-                            <constraint firstAttribute="trailing" secondItem="GhU-s9-vhh" secondAttribute="trailing" constant="20" symbolic="YES" id="Hwu-2Y-3hB"/>
+                            <constraint firstItem="DmF-7Z-qDM" firstAttribute="leading" secondItem="mNE-J3-SRa" secondAttribute="leading" constant="10" id="Epe-aC-CnF"/>
+                            <constraint firstAttribute="trailing" secondItem="GhU-s9-vhh" secondAttribute="trailing" constant="10" id="Hwu-2Y-3hB"/>
                             <constraint firstItem="DmF-7Z-qDM" firstAttribute="top" secondItem="mNE-J3-SRa" secondAttribute="top" constant="20" symbolic="YES" id="RWw-tG-Bhr"/>
                             <constraint firstItem="GhU-s9-vhh" firstAttribute="centerY" secondItem="DmF-7Z-qDM" secondAttribute="centerY" id="fMb-v8-6OZ"/>
                         </constraints>
                     </view>
                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hTK-rS-rYw" userLabel="CamsTableView">
                         <rect key="frame" x="0.0" y="123" width="414" height="739"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tableView>
                 </subviews>
                 <viewLayoutGuide key="safeArea" id="Evf-br-rmG"/>
-                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                <color key="backgroundColor" red="1" green="0.50579305015606768" blue="0.034702617148919757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="mNE-J3-SRa" firstAttribute="leading" secondItem="Evf-br-rmG" secondAttribute="leading" constant="10" id="KFT-ae-QFJ"/>
                     <constraint firstItem="Evf-br-rmG" firstAttribute="trailing" secondItem="hTK-rS-rYw" secondAttribute="trailing" id="OyJ-nH-ksO"/>
@@ -65,9 +64,4 @@
             <point key="canvasLocation" x="184" y="125"/>
         </viewController>
     </objects>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
